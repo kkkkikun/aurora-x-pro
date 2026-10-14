@@ -1,0 +1,16 @@
+[package]
+name = "rust-pro"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "rust-pro"
+path = "src/main.rs"
+
+[dependencies]
+serde_json = "1"
+libc = "0.2"  # getrusage: own CPU time for the fair clock (see pace in main.rs)
+ureq = { version = "2", default-features = false, features = ["json", "tls"] }
+
+[profile.release]
+opt-level = 3

@@ -1,0 +1,35 @@
+Aurora-X pro
+Copyright 2026 the Aurora-X team
+
+Aurora-X pro is the agent that the team "Aurora-X" submitted as its final version to the
+GOSIM 2026 Agentic Observer Hackathon (survey26), https://create.gosim.org/survey26/.
+
+Licensing
+---------
+
+* This project is a derived work of the organizers' Rust example project ("rust-pro",
+  from the hackathon's example materials). That example is licensed under the Creative
+  Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0,
+  https://creativecommons.org/licenses/by-nc/4.0/). All parts of the example that are
+  still present remain under CC BY-NC 4.0 and are used here with attribution and for
+  non-commercial purposes only. Unchanged example files in this repository:
+    - src/skymath.rs
+    - src/llm_client.rs
+    - Cargo.toml, Cargo.lock
+    - .env.example
+
+* The team's own changes are licensed under the Apache License, Version 2.0
+  (see LICENSE): the modifications to src/main.rs, src/planner.rs and src/advisor.rs,
+  the submission settings in observer.project.json, and rust_pro_entry.py.
+
+* The organizers' documentation that shipped inside the example (README, participant
+  guide, images, AGENTS.md) and the task cards, simulated data, protocol, evaluation
+  and runner code are the organizers' materials (CC BY-NC 4.0). They are not included
+  in this repository; get them from the official challenge materials.
+
+Attribution: GOSIM 2026 Agentic Observer Hackathon (https://create.gosim.org/survey26/).
+The organizers will publish an article on this benchmark; once it is out, please cite that
+article instead.
+
+Third-party crates (see Cargo.toml / Cargo.lock) keep their own licenses: serde_json,
+ureq and libc are available under MIT or Apache-2.0.
